@@ -7,17 +7,20 @@
     }
     .user {
         gap: 10%;
-        padding: 0;
     }
     .user_info_container {
-        display: none;
-
+        display: flex;
+        gap: 5%;
+        width: 100%;
     }
-    .user_info_container_mobile {
+    .user_info_flex_box {
+        display: block;
+    }
+    /* .user_info_container_mobile {
         display: flex;
         padding-top: 20px;
-    }
-    .user_info:first-of-type, .user_info:nth-of-type(2){
+    } */
+    .user_info:first-of-type{
         padding-bottom: 20px;
     }
 }

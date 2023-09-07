@@ -32,14 +32,16 @@ body {
 .user {
     display: flex;
     align-items: center;
-    gap: 2%;
+    gap: 3%;
     padding-top: 20px;
 }
 .user_icon img {
     width: 80px;
-
 }
 .user_info_container {
+    display: flex;
+}
+.user_info_flex_box {
     display: flex;
 }
 .user_info {
@@ -60,6 +62,6 @@ body {
     text-decoration: underline;
     color: antiquewhite;
 }
-.user_info_container_mobile {
+/* .user_info_container_mobile {
     display: none;
-}
+} */
