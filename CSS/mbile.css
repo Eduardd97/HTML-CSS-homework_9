@@ -16,10 +16,6 @@
     .user_info_flex_box {
         display: block;
     }
-    /* .user_info_container_mobile {
-        display: flex;
-        padding-top: 20px;
-    } */
     .user_info:first-of-type{
         padding-bottom: 20px;
     }
